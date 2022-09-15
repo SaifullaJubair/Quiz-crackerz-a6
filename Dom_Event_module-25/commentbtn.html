@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <h1>This module about comment post with js.module 25.5</h1>
+      <div id="ptext">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eaque repellat facere rerum itaque ad praesentium voluptatibus eveniet ullam vel mollitia quia omnis minus harum iusto non, adipisci, explicabo, nulla quo enim at? Consectetur, iusto velit, corporis, ipsum modi eveniet nisi error officiis architecto iste iure repellendus dolorum soluta! Libero!</p>
+            <p>Ea nostrum distinctio asperiores commodi necessitatibus, doloribus impedit facilis at voluptate facere obcaecati aspernatur atque corporis. Quo facilis architecto iusto enim illum possimus ut cum aliquid, in eveniet. Reiciendis tempora modi aliquam quis aperiam dolore delectus non doloribus fuga at repellat, porro odit velit autem sequi tenetur eum illo similique!</p>
+            <p>Magnam, iure aspernatur iste veniam, sequi excepturi laudantium, autem architecto similique quas aliquid ut laborum impedit modi aperiam atque consequuntur est? Dolor delectus, maxime perspiciatis, quidem deleniti possimus ut corporis similique minus perferendis id consequuntur neque. Sequi rem alias unde fugiat maxime minus repellat, in, molestias quasi, perspiciatis laborum architecto!</p>
+      </div>
+      <div>
+            <p id="ptext">comment</p>
+            <textarea name="" id="new-comment" cols="60" rows="10"></textarea>
+            <br>
+            <button id="btnpost">Post Your Comment</button>
+      </div>
+      <script>
+            document.getElementById('btnpost').addEventListener('click',function(){
+
+                  const inputField = document.getElementById('new-comment');
+                  const inputFiledUpdate = inputField.value
+                  const commentContainer = document.getElementById('ptext');
+                  const p = document.createElement('p');
+                  p.innerText = inputFiledUpdate;
+                  commentContainer.appendChild(p);
+                  inputField.value = '';
+                  
+            })
+      </script>
+</body>
+</html>

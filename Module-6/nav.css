@@ -1,0 +1,26 @@
+.anchor{
+      text-decoration: none;
+      padding: 0 100px;
+      font-size:60px;
+      color: antiquewhite;
+      background-color: skyblue;
+}
+ul{
+      display: flex;
+}
+nav li{
+      margin-right: 20px;
+      font-size: 30px;
+      list-style: none;
+}
+nav li:hover{
+      background-color: darkgrey;
+      padding: 5px;
+}
+nav li a{
+      text-decoration: none;
+      color: black;
+      
+      font-size: 60px;
+      padding: 3px 10px;
+}

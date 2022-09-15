@@ -1,0 +1,40 @@
+nav > ul{
+      display: flex;
+      background-color: aqua;
+      position: relative;
+      left: 300px;
+      width: fit-content;
+      
+}
+nav li{
+      margin-right: 20px;
+      font-size: 30px;
+      list-style: none;
+      padding: 5px 30px;    
+}
+nav >ul>li:hover{
+      background-color: white; 
+}
+nav li a{
+      text-decoration: none;
+      color: black;
+      padding: 3px 10px;
+}
+.dropdown{
+      display: none;
+      background-color: lightcyan;
+}
+.dropli:hover > .dropdown {
+      display: block;
+      position: absolute;
+      padding: 10px;
+}
+.dropdown > li{
+      padding: 10px 20px;
+}
+.dropdown > li:hover{
+     background-color: rgba(248, 62, 62, 0.774); 
+}
+#dropdown:hover{
+      color: aqua;
+}

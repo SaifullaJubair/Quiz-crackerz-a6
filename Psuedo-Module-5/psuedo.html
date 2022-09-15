@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            /*h1 block element k inline a dispaly korar jonno css*/
+            h1{
+                  display: inline;
+                  background-color: aqua;
+                  border: 5px;
+            }
+            /*hover use korte hoy age tag or class er nam likhe (:) bebohar korte hoy*/
+            .button:hover{
+                  background-color: blueviolet;
+                  color: antiquewhite;
+                  border-radius: 5px;
+                  border: 3px solid gold;
+                  font-size: 20px;
+                  
+            }
+            #text{
+                  height: 30px;
+                  width: 120px;
+            }
+            #text:focus{
+                  color: red;
+                  background-color: lightcyan;
+                  text-align: center;
+                  font-weight: 700;
+                  font-size: larger;
+            }
+            a:visited{
+                  color: aqua;
+            }
+            a{
+                  display: block;
+                  background-color: burlywood;
+                  margin: 2%;
+                  height: 5%;
+                  width: 15%;
+                  padding: 2%;
+            }
+      </style>
+</head> 
+<body>
+      <div>
+            <!--short cut <h1*3>{heading} likhle akbare 3ta h1 tag lekha hoye jabe-->
+            <!--heading inline a lekha hoyese-->
+           <h1>heading-1</h1>
+           <h1>heading-2</h1>
+           <h1>heading-3</h1>
+      </div>
+      <div>
+            <h2>
+                  Module-5-5-3
+            </h2>
+            <!--input tag er moddhe hover use kora hoyese hover use korle "mouse point" nile seta active hoy .
+            r jodi "focous" use kora hoy tahole"click" korle active hoy-->
+            <input type="button" value="Psudo test" class="button">
+            <input type="text" id="text">
+            
+      </div>
+      <div>
+            <a href="https://www.google.com/" class="button">website</a>
+            <a href="https://www.google.com/" class="button">website</a>
+            <a href="https://www.google.com/" class="button">website</a>
+            <a href="https://www.google.com/" class="button">website</a>
+            <a href="https://www.google.com/" class="button">website</a>
+      </div>
+</body>
+</html>

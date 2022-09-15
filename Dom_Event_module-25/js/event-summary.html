@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <h1>
+            This module about Events.25.4
+      </h1>
+      <h3 id="difult">Difult text</h3>
+      <button id="btn" onclick="changeText()">click and change text</button>
+
+      <h3 id="event">Difult text2</h3>
+      <button id="eventlistner">change add Events listener</button>
+
+
+      <p id="input-display">Difult input text</p>
+      <input id="btn-inputfiled" type="text">
+      <button id="btn-update">update</button>
+
+
+      <h2 id="footertitle">Footer</h2>
+      <input id="footer" type="text">
+      <button onclick="footerChange()">update</button>
+      <script>
+            document.getElementById('btn-update').addEventListener('click',function(){
+                  const updateInputFiled = document.getElementById('btn-inputfiled');
+                  const inputValue = updateInputFiled.value;
+                  document.getElementById('input-display').innerText =inputValue;
+                  updateInputFiled.value ='';
+
+
+
+            })
+
+
+            function changeText(){
+                  const hText = document.getElementById('difult')
+                  hText.innerText= 'Change text by click button'
+            }
+             document.getElementById('eventlistner').addEventListener('click',function(){
+                  const eventListner = document.getElementById('event');
+                  eventListner.innerText='change text by click add event listner'})
+                  
+      </script>
+      <!-- <script>
+            function footerChange(){
+                  const textInput = getElementById('footer');
+                  const updateInput = textInput.value;
+                  document.getElementById('footertitle').innerText =updateInput;
+
+            }
+      </script> -->
+
+</body>
+</html>

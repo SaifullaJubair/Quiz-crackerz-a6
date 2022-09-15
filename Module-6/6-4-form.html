@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+      <nav>
+            <a class="anchor" target="_blank" href="6-5-nav.html">Home</a>
+            <a class="anchor" target="_blank" href="6-2-semantic.html">Main</a>
+            <a class="anchor" target="_blank" href="audio-video.html">Media</a>
+            <a class="anchor" target="_blank" href="6-3-table.html">Table</a>
+            <a class="anchor" target="_blank" href="6-4-form.html">Form</a>
+      </nav>
+      <h1>This is form Module 6-4</h1>
+      <form action="">
+            <!-- input tag er moddhe placeholder use korle form a oi jagaye ki lakha hobe ta shomporke hint dei -->
+
+            <!-- name is the 'name' that is used when the value is passed (in the URL or in the posted data). The id attribute assigns an identifier to the <input> element. The id allows JavaScript to easily access the <input> element. It is also used to point to a specific id selector in a style sheet.. -->
+
+            <!-- The for attribute associates the label with a control element, as defined in the description of label.label a for attribute use na korle kaj korbena -->
+            <p>
+                  <label for="First Name">First Name:
+                        <input type="text" placeholder="Your First Name" name="fname" id="fname">
+                  </label>
+            </p>
+            <p>
+                  <label for="lname">Last Name:
+                        <input type="text" placeholder="Your Last Name" name="lname" id="lname">
+                  </label>
+            </p>
+            <p>
+                  <label for="email">Email:
+                        <input type="email" placeholder="Email:" name="email:" id="email">
+                  </label>
+            </p>
+            <p>
+                  <label for="pass">Password:
+                        <input type="password" placeholder="Password:" name="pass" id="pass">
+                  </label>
+            </p>
+            
+            <fieldset>
+                  <!-- fieldset er moddhe legend tag use korte hoy -->
+                  <legend>
+                        Seclet your Favourite Sports:
+                  </legend>
+                  <p>
+                       <!-- onnek gula option er moddhe akta seclet korar jonno "redio" use kora hoy redio use korar jonno "name er value" same hote hobe ta na holle aktar jagaye onnek gula seclet kora jabe mane redio kaj korbena.then id diffrent hobe r id te ja lekha hobe oi tai label er for a likhte hobe mane label er shathe id er connection hobe.-->
+                        <label for="Cricket">
+                              <input type="radio" name="sports" id="Cricket">Cricket
+                        </label>
+                  </p>
+                  <p>
+                        <label for="fball">
+                              <input type="radio" name="sports" id="fball">Football
+                        </label>
+                  </p>
+                  <p>
+                        <label for="bball">
+                              <input type="radio" name="sports" id="bball">Buscketball
+                        </label>
+                  </p>
+            </fieldset><br>
+            <fieldset>
+                  <legend>
+                        Seclet Your Favourite Food
+                  </legend>
+                  <p>
+                        <label for="kvuna">
+                              <input type="checkbox" name="ffood" id="kvuna">Kala Vuna
+                        </label>
+                        </p>
+                  <p>
+                        <label for="cfry">
+                              <input type="checkbox" name="ffood" id="cfry">Chicken Fry
+                        </label>
+                  </p>
+                  <p>
+                        <label for="birani">
+                              <input type="checkbox" name="ffood" id="birani">Birani
+                        </label>
+                  </p>
+            </fieldset>
+            <h3><label for="comment">Comment</label></h3>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            <p><button type="submit">Submit</button></p>
+            <p><button type="reset">Reset</button></p>
+
+      </form>
+      <footer>
+            <h1>This is footer</h1>
+            <nav>
+                  <h2>
+                        Contact Us:
+                  </h2>
+                  <ul>
+                        <li><a class="al" href="http://" target="_blank" >Facebook</a></li>
+                        <li><a class="al" href="http://" target="_blank" >Whatsapp</a></li>
+                        <li><a class="al" href="http://" target="_blank" >Email</a></li>
+                  </ul>
+            </nav>
+      </footer>
+</body>
+</html>

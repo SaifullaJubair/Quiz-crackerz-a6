@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="nav.css">
+      <style>
+            table{
+                  /* table er border er faka reduce korte border collapse use korte hoy ai css elemnt ta obosshoi table tag er moddhe likhte hobe */
+                  background-color: azure;
+                  border-collapse: collapse;                  
+            }
+            td,th{
+                 text-align: center;
+                 padding: 20px; 
+                  border: 1px solid thistle;
+            }
+            #tf{
+                  font-size: 20px;
+            }
+      </style>
+</head>
+<body>
+      <nav>
+            <a class="anchor" target="_blank" href="6-5-nav.html">Home</a>
+            <a class="anchor" target="_blank" href="6-2-semantic.html">Main</a>
+            <a class="anchor" target="_blank" href="audio-video.html">Media</a>
+            <a class="anchor" target="_blank" href="6-3-table.html">Table</a>
+            <a class="anchor" target="_blank" href="6-4-form.html">Form</a>
+      </nav>
+      <div>
+            <h1>This is module no 6.3 Table</h1>
+            <table>
+                  <thead>
+                        <tr>
+                              <th>No.</th>
+                              <th>Full Name</th>
+                              <th>Position</th>
+                              <th>Salary</th>
+                        </tr>
+                  </thead>
+                 <tbody>
+                  <tr>
+                        <td>1</td>
+                        <td>Bill Gates</td>
+                        <td>Founder Microsoft</td>
+                        <td>1000</td>
+                  </tr>
+                  <tr>
+                        <td>2</td>
+                        <td>Stive</td>
+                        <td>Amazon</td>
+                        <td>1200</td>
+                  </tr>
+                  <tr>
+                        <td>3</td>
+                        <td>Mark Zukarburk</td>
+                        <td>Facebook</td>
+                        <td>2000</td>
+                  </tr>
+                  <tr>
+                        <td>4</td>
+                        <td>Elon Musk</td>
+                        <td>SpecX Tesla</td>
+                        <td>3000</td>
+                  </tr>
+                 </tbody>
+                 <tfoot>
+                  <tr>
+                        <td id="tf" colspan="4">Elon Musk is winner</td>
+                  </tr>
+                 </tfoot>
+            </table>
+      </div>
+      <footer>
+            <h1>This is footer</h1>
+            <nav>
+                  <h2>
+                        Contact Us:
+                  </h2>
+                  <ul>
+                        <li><a class="al" href="http://" target="_blank" >Facebook</a></li>
+                        <li><a class="al" href="http://" target="_blank" >Whatsapp</a></li>
+                        <li><a class="al" href="http://" target="_blank" >Email</a></li>
+                  </ul>
+            </nav>
+      </footer>
+</body>
+</html>

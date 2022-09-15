@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            .megabox{
+                  height: 300px;
+                  width: 500px;
+                  border: 5px solid darkgray;
+                  margin: 5px;
+                  /* overflow: hidden; use korle joto tuku over follow hobe ta hidden hoye jabe*/
+
+                  /* overflow: scroll; */
+
+                  /* overflow: scroll; use korle joto tuku overfollow hobe ta scrool kora jabe but 
+                  horizontal and vertical scroll bur toiri hobe. vertical scroll bur na chaile overflow-x: ; and horizontal scroll bur na chaile overflow-y: ; use korte hobe.*/
+                  overflow: scroll;
+            }
+            .midbox{
+                  height: 300px;
+                  width: 500px;
+                  border: 5px solid steelblue;
+                  margin: 5px;
+                  overflow-y: scroll;
+            }
+            .midbox-2{
+                  height: 300px;
+                  width: 500px;
+                  border: 5px solid steelblue;
+                  margin: 5px;
+                  overflow:hidden;
+            }
+            .midbox-3{
+                  width: 500px;
+                  border: 2px solid sandybrown;
+                  margin: 5px;
+                  overflow:hidden;
+                  padding: 5px;
+            }
+            .text{
+                  text-overflow: ellipsis;
+                  white-space: nowrap;
+                  overflow:hidden;
+                  
+            }
+
+      </style>
+</head>
+<body>
+      <h1>
+            This is OverFlow module no 7-2
+      </h1>
+      <div class="megabox">
+            <h1>
+                  There use overfolow only.So that you can see horizontal and vertical scrollbur.
+            </h1>
+            <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, consequuntur. Ipsa modi dolore laudantium quibusdam incidunt sunt explicabo odio accusamus libero numquam a veritatis quis et, magni, doloremque, saepe vitae! Quam, veniam! Eaque, aut. Doloremque, harum quos illo error iste nulla eos adipisci, reprehenderit fugiat culpa accusamus. Perferendis cum officia provident totam perspiciatis obcaecati asperiores doloribus labore dicta deleniti quasi, vitae autem porro. Quam debitis nostrum dolorem fugiat ut blanditiis expedita beatae possimus, architecto in, repudiandae obcaecati consectetur incidunt eum tempora quibusdam iure sunt ad necessitatibus dolor amet eos autem corporis a. Blanditiis id commodi iure delectus, labore expedita quod amet quidem dolores enim fuga sint quis corporis et minus, numquam tempore eligendi, earum quo aspernatur. Cum cupiditate, commodi esse aliquam ipsam, quasi laudantium tempora delectus, reiciendis expedita consequuntur ex accusantium ut animi inventore autem in quas. Quibusdam animi, quos fuga reiciendis facilis dolore a amet beatae magnam sunt veniam, hic, atque quas eum eveniet modi officiis minus consectetur? Cupiditate itaque obcaecati unde nihil sint recusandae magni amet voluptatem doloremque dicta? Nobis asperiores quibusdam ipsa, a inventore assumenda quis nesciunt, consequuntur obcaecati, dolore placeat optio cumque nihil aliquid! Eius temporibus aspernatur repellendus beatae dolores! Quisquam incidunt obcaecati recusandae quia velit accusamus expedita nihil dolore esse quod voluptatibus aliquam modi, ab dolorem sint doloremque. Quos sit assumenda optio reprehenderit quisquam ex praesentium illo corporis impedit voluptate non animi inventore, eum ipsam, eos temporibus deserunt omnis. 
+            </p>
+      </div>
+      <div class="midbox">
+            <h1>
+                  Here use overflow-y:scroll so that you can see only horizontal scroll bur.
+            </h1>
+            <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque distinctio sit dolorum maiores, porro harum esse praesentium dicta. Ipsum nemo facilis, fugit vero exercitationem corrupti laborum recusandae fugiat dignissimos cumque nam dolorum molestias iusto quod debitis temporibus, aliquam nisi quo dolor enim excepturi magni nulla? Earum esse beatae a fugit ducimus ea veniam quisquam eos doloremque sit saepe, minima natus modi tempore reiciendis provident, voluptatem asperiores nesciunt voluptate quos autem numquam neque veritatis? Ratione voluptates aspernatur tempora. Expedita molestias ipsam officiis nobis hic voluptatibus accusamus, laboriosam quaerat commodi consectetur dolorum quos dolore fuga sequi eos repudiandae error! Velit amet laborum consequatur facilis quae accusamus fuga, distinctio, iure in a tempore et eaque aspernatur eveniet odit magni, sapiente voluptatem sit maiores dolorem suscipit eos voluptate expedita nam. Quibusdam adipisci maiores magnam, vero iste aperiam reprehenderit ratione sit veritatis officia? Sint ab est corporis mollitia facilis necessitatibus architecto, dolore vel nihil doloribus iure quae, modi ullam facere, atque voluptatum similique enim odio! Autem hic dignissimos iure fugiat laboriosam fugit quod culpa debitis perspiciatis eaque. Debitis ullam quaerat repudiandae nihil ducimus dolorum. Culpa, dolore. Enim odit ipsa voluptas, temporibus non architecto nostrum nihil autem, nam repellat, rerum dolorum ex soluta dignissimos suscipit error?
+            </p>
+      </div>
+      <div class="midbox-2">
+            <h1>
+                  Here use overflow:hidden so that you can't see overflow text.
+            </h1>
+            <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque distinctio sit dolorum maiores, porro harum esse praesentium dicta. Ipsum nemo facilis, fugit vero exercitationem corrupti laborum recusandae fugiat dignissimos cumque nam dolorum molestias iusto quod debitis temporibus, aliquam nisi quo dolor enim excepturi magni nulla? Earum esse beatae a fugit ducimus ea veniam quisquam eos doloremque sit saepe, minima natus modi tempore reiciendis provident, voluptatem asperiores nesciunt voluptate quos autem numquam neque veritatis? Ratione voluptates aspernatur tempora. Expedita molestias ipsam officiis nobis hic voluptatibus accusamus, laboriosam quaerat commodi consectetur dolorum quos dolore fuga sequi eos repudiandae error! Velit amet laborum consequatur facilis quae accusamus fuga, distinctio, iure in a tempore et eaque aspernatur eveniet odit magni, sapiente voluptatem sit maiores dolorem suscipit eos voluptate expedita nam. Quibusdam adipisci maiores magnam, vero iste aperiam reprehenderit ratione sit veritatis officia? Sint ab est corporis mollitia facilis necessitatibus architecto, dolore vel nihil doloribus iure quae, modi ullam facere, atque voluptatum similique enim odio! Autem hic dignissimos iure fugiat laboriosam fugit quod culpa debitis perspiciatis eaque. Debitis ullam quaerat repudiandae nihil ducimus dolorum. Culpa, dolore. Enim odit ipsa voluptas, temporibus non architecto nostrum nihil autem, nam repellat, rerum dolorum ex soluta dignissimos suscipit error?necessitatibus dolor amet eos autem corporis a. Blanditiis id commodi iure delectus, labore expedita quod amet quidem dolores enim fuga sint quis corporis et minus, numquam tempore eligendi, earum quo aspernatur. Cum cupiditate, commodi esse aliquam ipsam, quasi laudantium tempora delectus, reiciendis expedita consequuntur ex accusantium ut animi inventore autem in quas. Quibusdam animi, quos fuga reiciendis facilis dolore a amet beatae magnam sunt veniam, hic, atque quas eum eveniet modi officiis minus consectetur? Cupiditate itaque obcaecati unde nihil sint recusandae magni amet voluptatem doloremque dicta? Nobis asperiores quibusdam ipsa, a inventore assumenda quis nesciunt, consequuntur obcaecati, dolore placeat optio cumque nihil aliquid! Eius temporibus aspernatur repellendus beatae dolores! Quisquam incidunt obcaecati recusandae quia velit accusamus expedita nihil dolore esse quod voluptatibus aliquam modi, ab dolorem sint doloremque. Quos sit assumenda optio reprehenderit quisquam ex praesentium illo corporis impedit voluptate non animi inventore, eum ipsam, eos temporibus deserunt omnis. 
+            </p>
+            </p>
+      </div>
+      <div class="midbox-3">
+            <h1>
+                  Here use overflow:hidden so that you can't see overflow text.but use texr-overfolow:elepses so you can see ...
+            </h1>
+            <p class="text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque distinctio sit dolorum maiores, porro harum esse praesentium dicta. Ipsum nemo facilis, fugit vero exercitationem corrupti laborum recusandae fugiat dignissimos cumque nam dolorum molestias iusto quod debitis temporibus, aliquam nisi quo dolor enim excepturi magni nulla? Earum esse beatae a fugit ducimus ea veniam quisquam eos doloremque sit saepe, minima natus modi tempore reiciendis provident, voluptatem asperiores nesciunt voluptate quos autem numquam neque veritatis? Ratione voluptates aspernatur tempora. Expedita molestias ipsam officiis nobis hic voluptatibus accusamus, laboriosam quaerat commodi consectetur dolorum quos dolore fuga sequi eos repudiandae error! Velit amet laborum consequatur facilis quae accusamus fuga, distinctio, iure in a tempore et eaque aspernatur eveniet odit magni, sapiente voluptatem sit maiores dolorem suscipit eos voluptate expedita nam. Quibusdam adipisci maiores magnam, vero iste aperiam reprehenderit ratione sit veritatis officia? Sint ab est corporis mollitia facilis necessitatibus architecto, dolore vel nihil doloribus iure quae, modi ullam facere, atque voluptatum similique enim odio! Autem hic dignissimos iure fugiat laboriosam fugit quod culpa debitis perspiciatis eaque. Debitis ullam quaerat repudiandae nihil ducimus dolorum. Culpa, dolore. Enim odit ipsa voluptas, temporibus non architecto nostrum nihil autem, nam repellat, rerum dolorum ex soluta dignissimos suscipit error?necessitatibus dolor amet eos autem corporis a. Blanditiis id commodi iure delectus, labore expedita quod amet quidem dolores enim fuga sint quis corporis et minus, numquam tempore eligendi, earum quo aspernatur. Cum cupiditate, commodi esse aliquam ipsam, quasi laudantium tempora delectus, reiciendis expedita consequuntur ex accusantium ut animi inventore autem in quas. Quibusdam animi, quos fuga reiciendis facilis dolore a amet beatae magnam sunt veniam, hic, atque quas eum eveniet modi officiis minus consectetur? Cupiditate itaque obcaecati unde nihil sint recusandae magni amet voluptatem doloremque dicta? Nobis asperiores quibusdam ipsa, a inventore assumenda quis nesciunt, consequuntur obcaecati, dolore placeat optio cumque nihil aliquid! Eius temporibus aspernatur repellendus beatae dolores! Quisquam incidunt obcaecati recusandae quia velit accusamus expedita nihil dolore esse quod voluptatibus aliquam modi, ab dolorem sint doloremque. Quos sit assumenda optio reprehenderit quisquam ex praesentium illo corporis impedit voluptate non animi inventore, eum ipsam, eos temporibus deserunt omnis. 
+            </p>
+            </p>
+      </div>
+</body>
+</html>

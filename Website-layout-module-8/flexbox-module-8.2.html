@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+                  /* justify-content: flex-end; last a orthat right side a dekhabe center likhle center a dekhabe */
+                  /* justify-content: space-between; likhle full website er size onushare jaiga nibe. */
+                  /* horigental box content shajanor jonno align-items: ; r vertical er jonno justify-content: ; */
+            .container ,.container1 , .con,.contain,.cont{
+                  border: 3px solid silver;
+                  display: flex;
+                  margin: 10px;
+            }
+            .con{
+                  justify-content: center;
+                  height: 400px;
+                  /* akhon box gula niche namanor jonno use korte hobe align-items: flex-end; middle a use korar jonno align-items: center; */
+                  align-items: center;
+
+            }
+            .cont{
+                  justify-content: flex-end;
+                  
+                  /* align-items: stretch; korle full height:  nia nibe */
+
+            }
+            .contain{
+                  justify-content: space-between;
+            }
+            .container{
+                  justify-content: space-evenly;
+            }
+            .container1{
+                  justify-content: space-around;
+                  flex-wrap: wrap;
+            }
+            .box{
+                  font-size: 25px;
+                  font-weight: 700;
+                  background-color: antiquewhite;
+                  border: 3px dashed peru;
+                  height: 100px;
+                  width: 100px;
+            }
+            #cont{
+                  height: 500px;
+            }
+      </style>
+</head>
+<body>
+      <h1>
+            This is felxbox website layout module-8-2
+      </h1>
+      <div class="con">
+            <div class="box">Box-2</div>
+            <div class="box">Box-3</div>
+            <div class="box">Box-4</div>
+            <div class="box">Box-1</div>
+      </div>
+      <div class="cont" id="cont">
+            <div class="box">Box-1</div>
+            <div class="box">Box-2</div>
+            <div class="box">Box-4</div>
+            <div class="box">Box-3</div>
+      </div>
+      <div class="contain">
+            <div class="box">Box-1</div>
+            <div class="box">Box-2</div>
+            <div class="box">Box-3</div>
+            <div class="box">Box-4</div>
+      </div>
+      <div class="container">
+            <div class="box">Box-1</div>
+            <div class="box">Box-2</div>
+            <div class="box">Box-3</div>
+            <div class="box">Box-4</div>
+      </div>
+      <div class="container1">
+            <div class="box">Box-1</div>
+            <div class="box">Box-2</div>
+            <div class="box">Box-3</div>
+            <div class="box">Box-4</div>
+      </div>
+      <div>
+            <div class="container">
+                  <div class="box">Box-1</div>
+                  <div class="box">Box-2</div>
+                  <div class="box">Box-3</div>
+                  <div class="box">Box-4</div>
+            </div>
+            <div class="container1">
+                  <div class="box">Box-1</div>
+                  <div class="box">Box-2</div>
+                  <div class="box">Box-3</div>
+                  <div class="box">Box-4</div>
+            </div><div class="container">
+                  <div class="box">Box-1</div>
+                  <div class="box">Box-2</div>
+                  <div class="box">Box-3</div>
+                  <div class="box">Box-4</div>
+            </div>
+            <div class="container1">
+                  <div class="box">Box-1</div>
+                  <div class="box">Box-2</div>
+                  <div class="box">Box-3</div>
+                  <div class="box">Box-4</div>
+                  <div class="box">Box-1</div>
+                  <div class="box">Box-2</div>
+                  <div class="box">Box-3</div>
+                  <div class="box">Box-4</div>
+                  <div class="box">Box-1</div>
+                  <div class="box">Box-2</div>
+                  <div class="box">Box-3</div>
+                  <div class="box">Box-4</div>
+                  <div class="box">Box-1</div>
+                  <div class="box">Box-2</div>
+                  <div class="box">Box-3</div>
+                  <div class="box">Box-4</div>
+                  <div class="box">Box-1</div>
+                  <div class="box">Box-2</div>
+                  <div class="box">Box-3</div>
+                  <div class="box">Box-4</div>
+                  <div class="box">Box-1</div>
+                  <div class="box">Box-2</div>
+                  <div class="box">Box-3</div>
+                  <div class="box">Box-4</div>
+                  <div class="box">Box-1</div>
+                  <div class="box">Box-2</div>
+                  <div class="box">Box-3</div>
+                  <div class="box">Box-30</div>
+                  <!-- Akta div er modhhe onnek box thakle then flex:wrap kore dile line by lien hoye jabe  -->
+            </div>
+      </div>
+</body>
+</html>

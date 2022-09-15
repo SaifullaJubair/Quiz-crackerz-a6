@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style> 
+            .field{
+                  border: 2px solid coral;
+            }
+            .bat{
+                  transition: transform .5s ease-in;
+            }
+            .field:hover .bat{
+                  transform: rotate(-70deg);
+                  transform-origin: top right;
+            }
+            .ball{
+                 height: 50px;
+                 width: 50px;
+                  position: relative;
+                  left: 300px;
+                  transition: transform 0.5s ease-out .32s;
+                 
+            }
+            .field:hover div{
+                  
+                  transform: translate(1800px ,-400px);
+            }
+
+            .cball{
+                  height: 50px;
+                  width: 50px;
+                  
+                  
+            }
+      </style>
+</head>
+<body>
+      <h1>This is Animetion transform transition Module7-7</h1>
+      <div class="field">
+            <img class="bat" src="Images/cricket.png" alt="">
+            <div class="ball">
+                  <img class="cball" src="Images/balll.png" alt="">
+            </div>
+      </div>
+      
+</body>
+</html>

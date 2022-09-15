@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            .loginsec{
+                  display: flex;
+                  justify-content: center;
+                  margin: 10px 20px;
+            }
+            .login{
+                  display: flex;
+                  flex-direction: column;
+                  width: 40%;
+            }
+            .login input{
+                  margin-top: 1em;
+                  padding: 5px 10px;
+                  font-size: 1.5em;
+                  height: 2em;
+            }
+            .login input[type="button"]{
+                  border: 0;
+                  border-radius: 3px;
+                  width: 20%;
+                  background-color: darkorange;
+                  color: whitesmoke;
+            }
+            nav{
+                  display: flex;
+                  justify-content: space-between;
+            }
+            nav a{
+                  text-decoration: none;
+                  color: black;
+                  font-size: 2em;
+                  margin: 10px;
+            }
+      </style>
+</head>
+<body>
+      <h1>This is Login form Module8-3</h1>
+      <header>
+            <nav>
+                  <span>
+                        <a href="">Home</a>
+                        <a href="">Class</a>
+                        
+                  </span>
+                  <span>
+                        <a href="">User</a>
+                        <a href="">Logout</a>
+                  </span>
+            </nav>
+      </header>
+      <section class="loginsec">
+            <form action="" class="login">
+                  <h1 >Please Login</h1>
+                  <input type="text" id="text" placeholder="Input Your Name" name="text">
+                  <input type="email" name="email" id="email" placeholder="Input Your Email">
+                  <input type="password" name="password" id="password" placeholder="Input Your Password" required>
+                  <input type="button" value="Login">
+            </form>
+      </section>
+</body>
+</html>

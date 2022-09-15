@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            @keyframes slading{
+                  0%{
+                      background-color: lime; 
+                      left: 0; 
+                      top: 0;
+                  }
+                  50%{
+                        background-color: aqua;
+                        top: 200px;
+                  }
+                  100%{
+                        left: 200px;
+                        top: 0;
+                        background-color: magenta;
+                  }
+            }
+            .stage{
+                  height: 300px;
+                  width: 300px;
+                  background-color: steelblue;
+            }
+            .ball{
+                  height: 100px;
+                  width: 100px;
+                  position: relative;
+                  border-radius: 50%;
+                  background-color: lime;
+                  animation: slading 1s  ease-in-out  .5s infinite alternate  ;
+                  animation-play-state: running;
+                  
+            }
+      </style>
+</head>
+<body>
+      <h1>Animetion02 Module7-8</h1>
+      <h1>Lets explore Animetion</h1>
+      <div class="stage">
+            <div class="ball"></div>
+      </div>
+</body>
+</html>
